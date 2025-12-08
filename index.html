@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="monitor-frame">
+        <!-- Monitor Stand -->
+        <div class="monitor-stand"></div>
+        
+        <!-- Monitor Bezel -->
+        <div class="monitor-bezel">
+            <!-- Power Button -->
+            <div class="power-button"></div>
+            
+            <!-- Screen Content -->
+            <div class="screen">
+                <!-- Navigation -->
+                <nav class="navbar">
+                    <div class="nav-container">
+                        <div class="logo">
+                            <span class="logo-icon">{'portfolio'}</span>
+                        </div>
+                        <ul class="nav-menu">
+                            <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                            <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+                            <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+                            <li><a href="#skills" class="nav-link" data-page="skills">Skills</a></li>
+                            <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+                        </ul>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Page Container -->
+                <div class="page-container">
+                    <!-- Home Page -->
+                    <div class="page active" id="home">
+                        <div class="hero">
+                            <div class="hero-content">
+                                <h1 class="hero-title">Welcome to My Portfolio</h1>
+                                <p class="hero-subtitle">Full Stack Developer & Creative Technologist</p>
+                                <div class="hero-text">
+                                    <p>Crafting beautiful and functional digital experiences</p>
+                                </div>
+                                <button class="cta-button">Explore My Work</button>
+                            </div>
+                            <div class="hero-image">
+                                <div class="floating-box box-1"></div>
+                                <div class="floating-box box-2"></div>
+                                <div class="floating-box box-3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Page -->
+                    <div class="page" id="about">
+                        <div class="about-content">
+                            <h2 class="page-title">About Me</h2>
+                            <div class="about-grid">
+                                <div class="about-text">
+                                    <p>Hi! I'm a passionate developer with a love for creating intuitive and beautiful user experiences.</p>
+                                    <p>With expertise in modern web technologies, I transform ideas into interactive solutions that engage and delight users.</p>
+                                    <p>When I'm not coding, you can find me exploring new design trends, contributing to open source, or enjoying the great outdoors.</p>
+                                </div>
+                                <div class="about-stats">
+                                    <div class="stat-card">
+                                        <h3>5+</h3>
+                                        <p>Years Experience</p>
+                                    </div>
+                                    <div class="stat-card">
+                                        <h3>50+</h3>
+                                        <p>Projects Completed</p>
+                                    </div>
+                                    <div class="stat-card">
+                                        <h3>30+</h3>
+                                        <p>Happy Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects Page -->
+                    <div class="page" id="projects">
+                        <div class="projects-content">
+                            <h2 class="page-title">Featured Projects</h2>
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                                    <div class="project-info">
+                                        <h3>E-Commerce Platform</h3>
+                                        <p>A modern shopping platform with real-time updates and secure payments.</p>
+                                        <div class="project-tags">
+                                            <span class="tag">React</span>
+                                            <span class="tag">Node.js</span>
+                                            <span class="tag">MongoDB</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                                    <div class="project-info">
+                                        <h3>Social Media App</h3>
+                                        <p>A feature-rich social platform with real-time messaging and notifications.</p>
+                                        <div class="project-tags">
+                                            <span class="tag">Vue.js</span>
+                                            <span class="tag">Firebase</span>
+                                            <span class="tag">WebSocket</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                                    <div class="project-info">
+                                        <h3>Analytics Dashboard</h3>
+                                        <p>Interactive data visualization and business intelligence tool.</p>
+                                        <div class="project-tags">
+                                            <span class="tag">D3.js</span>
+                                            <span class="tag">Python</span>
+                                            <span class="tag">PostgreSQL</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                                    <div class="project-info">
+                                        <h3>Mobile Weather App</h3>
+                                        <p>Cross-platform weather application with beautiful UI and animations.</p>
+                                        <div class="project-tags">
+                                            <span class="tag">React Native</span>
+                                            <span class="tag">REST API</span>
+                                            <span class="tag">Geolocation</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Page -->
+                    <div class="page" id="skills">
+                        <div class="skills-content">
+                            <h2 class="page-title">My Skills</h2>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h3>Frontend</h3>
+                                    <div class="skill-bars">
+                                        <div class="skill">
+                                            <div class="skill-name">React.js</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 90%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">Vue.js</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 85%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">CSS/SCSS</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 92%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category">
+                                    <h3>Backend</h3>
+                                    <div class="skill-bars">
+                                        <div class="skill">
+                                            <div class="skill-name">Node.js</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 88%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">Python</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">SQL</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 85%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category">
+                                    <h3>Tools & Others</h3>
+                                    <div class="skill-bars">
+                                        <div class="skill">
+                                            <div class="skill-name">Git</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 90%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">Docker</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 75%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">UI/UX Design</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 82%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Page -->
+                    <div class="page" id="contact">
+                        <div class="contact-content">
+                            <h2 class="page-title">Get In Touch</h2>
+                            <div class="contact-wrapper">
+                                <div class="contact-info">
+                                    <div class="contact-item">
+                                        <h3>Email</h3>
+                                        <p><a href="mailto:andychen200822@gmail.com">andychen200822@gmail.com</a></p>
+                                    </div>
+                                    <div class="contact-item">
+                                        <h3>Phone</h3>
+                                        <p><a href="tel:+17788892665">+1 (778) 889-2665</a></p>
+                                    </div>
+                                    <div class="contact-item">
+                                        <h3>Location</h3>
+                                        <p>San Francisco, CA</p>
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="#" class="social-link">GitHub</a>
+                                        <a href="#" class="social-link">LinkedIn</a>
+                                        <a href="#" class="social-link">Twitter</a>
+                                    </div>
+                                </div>
+                                <form class="contact-form">
+                                    <input type="text" placeholder="Your Name" required>
+                                    <input type="email" placeholder="Your Email" required>
+                                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                                    <button type="submit" class="submit-button">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
