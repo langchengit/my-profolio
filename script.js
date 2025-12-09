@@ -41,10 +41,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // CTA Button - navigate to projects
+    // CTA Button - navigate to about
     if (ctaButton) {
         ctaButton.addEventListener('click', function() {
-            navigateTo('projects');
+            navigateTo('about');
         });
     }
 

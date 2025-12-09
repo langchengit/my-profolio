@@ -27,8 +27,8 @@
                         <ul class="nav-menu">
                             <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
                             <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+                            <li><a href="#skills" class="nav-link" data-page="skills">Skills</a></li>
                             <li><a href="#achievements" class="nav-link" data-page="achievements">Achievements</a></li>
-                            <li><a href="#extracurriculars" class="nav-link" data-page="extracurriculars">Extracurriculars</a></li>
                             <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
                         </ul>
                         <div class="hamburger">
@@ -65,91 +65,21 @@
                         <div class="about-content">
                             <h2 class="page-title">About Me</h2>
                             <div class="about-grid">
-                                <div>
-                                    <div class="about-text">
-                                        <p>I'm an aspiring programmer passionate about competitive programming and mathematical problem-solving. I apply algorithmic thinking and practical coding skills to solve challenging problems.</p>
-                                    </div>
-
-                                    <div class="about-stats" style="margin-top:20px;">
-                                        <div class="stat-card">
-                                            <h3>5+</h3>
-                                            <p>Years Experience</p>
-                                        </div>
-                                        <div class="stat-card">
-                                            <h3>50+</h3>
-                                            <p>Programming competitions competed</p>
-                                        </div>
-
-                                        <div style="display: flex; gap: 12px; margin-top: 10px;">
-                                            <a href="#achievements" class="nav-link" data-page="achievements" style="flex: 1; text-align: center; padding: 15px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 15px; text-decoration: none; font-weight: 600; font-size: 14px;">View My Achievements →</a>
-                                            <a href="#extracurriculars" class="nav-link" data-page="extracurriculars" style="flex: 1; text-align: center; padding: 15px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 15px; text-decoration: none; font-weight: 600; font-size: 14px;">View My Extracurriculars →</a>
-                                        </div>
-                                    </div>
+                                <div class="about-text">
+                                    <p>Hi! I'm an aspiring programmer with a passion for problem-solving and mathematical thinking. I'm deeply interested in competitive programming and algorithm design.</p>
+                                    <p>With strong expertise in mathematics and computer science fundamentals, I tackle complex problems through competitive programming on platforms like Codeforces, LeetCode, and USACO. I've participated in numerous math competitions including AIME, CCC, and various Canadian math contests.</p>
+                                    <p>I combine mathematical rigor with programming skill to develop efficient solutions and explore the intersection of algorithms and mathematics.</p>
                                 </div>
-
-                                <div>
-                                    <h3 style="margin-bottom: 20px; font-size: 20px; color: #1a1a1a;">My Skills</h3>
-                                    <div class="skills-grid">
-                                        <div class="skill-category">
-                                            <h4 style="margin-bottom: 15px;">Frontend</h4>
-                                            <div class="skill-bars">
-                                                <div class="skill">
-                                                    <div class="skill-name">HTML</div>
-                                                    <div class="skill-bar">
-                                                        <div class="skill-progress" style="width: 95%;"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="skill">
-                                                    <div class="skill-name">CSS</div>
-                                                    <div class="skill-bar">
-                                                        <div class="skill-progress" style="width: 95%;"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="skill">
-                                                    <div class="skill-name">JavaScript</div>
-                                                    <div class="skill-bar">
-                                                        <div class="skill-progress" style="width: 80%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="skill-category">
-                                            <h4 style="margin-bottom: 15px;">Programming Languages</h4>
-                                            <div class="skill-bars">
-                                                <div class="skill">
-                                                    <div class="skill-name">Java</div>
-                                                    <div class="skill-bar">
-                                                        <div class="skill-progress" style="width: 100%;"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="skill">
-                                                    <div class="skill-name">C++</div>
-                                                    <div class="skill-bar">
-                                                        <div class="skill-progress" style="width: 90%;"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="skill">
-                                                    <div class="skill-name">Python</div>
-                                                    <div class="skill-bar">
-                                                        <div class="skill-progress" style="width: 60%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="skill-category">
-                                            <h4 style="margin-bottom: 15px;">Tools & Others</h4>
-                                            <div class="skill-bars">
-                                                <div class="skill">
-                                                    <div class="skill-name">Git</div>
-                                                    <div class="skill-bar">
-                                                        <div class="skill-progress" style="width: 90%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="about-stats">
+                                    <div class="stat-card">
+                                        <h3>5+</h3>
+                                        <p>Years Experience</p>
                                     </div>
+                                    <div class="stat-card">
+                                        <h3>50+</h3>
+                                        <p>Programming competitions competed</p>
+                                    </div>
+                                    <a href="#achievements" class="nav-link" data-page="achievements" style="display: block; text-align: center; padding: 20px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 15px; text-decoration: none; margin-top: 10px; font-weight: 600;">View My Achievements →</a>
                                 </div>
                             </div>
                         </div>
@@ -216,6 +146,73 @@
                     </div>
 
                     <!-- Skills Page -->
+                    <div class="page" id="skills">
+                        <div class="skills-content">
+                            <h2 class="page-title">My Skills</h2>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h3>Frontend</h3>
+                                    <div class="skill-bars">
+                                        <div class="skill">
+                                            <div class="skill-name">HTML</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 95%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">CSS</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 95%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">JavaScript</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category">
+                                    <h3>Programming Languages</h3>
+                                    <div class="skill-bars">
+                                        <div class="skill">
+                                            <div class="skill-name">Java</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 100%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">C++</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 90%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="skill-name">Python</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 60%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category">
+                                    <h3>Tools & Others</h3>
+                                    <div class="skill-bars">
+                                        <div class="skill">
+                                            <div class="skill-name">Git</div>
+                                            <div class="skill-bar">
+                                                <div class="skill-progress" style="width: 90%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Achievements Page -->
                     <div class="page" id="achievements">
                         <div class="achievements-content">
@@ -300,69 +297,6 @@
                     <!-- Replace with closing div -->
 
                     <!-- Contact Page -->
-                    <!-- Extracurriculars Page -->
-                    <div class="page" id="extracurriculars">
-                        <div class="extracurriculars-content">
-                            <h2 class="page-title">Extracurriculars</h2>
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-card">
-                                        <div class="timeline-header">
-                                            <h3>Physineering Club President</h3>
-                                            <span class="timeline-date">September 2025 - Present</span>
-                                        </div>
-                                        <p class="timeline-description">I serve as the Physineering Club President, responsible for conducting weekly meetings and lectures, coordinating and leading in various competitions. We are focusing on four team competitions this year: FYKOS, Kwantlen Science Challenge, UBC Physics Olympics, and CSDCMS (CANSAT) Challenge.</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-card">
-                                        <div class="timeline-header">
-                                            <h3>vsHacks 2025 Co-organizer</h3>
-                                            <span class="timeline-date">September 2024 - July 2025</span>
-                                        </div>
-                                        <p class="timeline-description">I co-organized vsHacks 2025, an online hackathon where participants built functional prototypes within two days. During planning, I sought sponsorship, created and managed the Devpost registration portal, and updated our website. During the event, I conducted a GitHub workshop for beginners and served on the judging panel to coordinate prize announcements and distribution.</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-card">
-                                        <div class="timeline-header">
-                                            <h3>Ucode Club Vice President</h3>
-                                            <span class="timeline-date">September 2024 - Present</span>
-                                        </div>
-                                        <p class="timeline-description">I serve as Vice President of Ucode Club in grades 11 and 12. In grade 11, I hosted in-club coding competitions and contributed to problem creation. In grade 12, I teach members fundamental web development skills including HTML, CSS, and JavaScript.</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-card">
-                                        <div class="timeline-header">
-                                            <h3>Math Challengers Club Junior Mentor</h3>
-                                            <span class="timeline-date">September 2024 - Present</span>
-                                        </div>
-                                        <p class="timeline-description">In grade 11, I mentored the grade 8 Math Challengers Team and helped them achieve second place in Math Challengers Regional. I gathered them regularly for practice and taught new concepts. I am looking forward to mentoring them again this year.</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-card">
-                                        <div class="timeline-header">
-                                            <h3>Learning Buddies Network Math Mentor</h3>
-                                            <span class="timeline-date">October 2025 - Present</span>
-                                        </div>
-                                        <p class="timeline-description">I serve as a full-time math mentor at Learning Buddies Network, a non-profit organization. I mentor my buddy in math every Monday and Wednesday after school. I emphasize preparation beforehand to provide engaging and efficient lessons. I am currently paired with a grade 6 student.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="page" id="contact">
                         <div class="contact-content">
                             <h2 class="page-title">Get In Touch</h2>
@@ -382,7 +316,7 @@
                                     </div>
                                     <div class="social-links">
                                         <a href="#" class="social-link">GitHub</a>
-                                        <a href="https://www.linkedin.com/in/minglang-chen-884400315/" class="social-link" target="_blank" rel="noopener">LinkedIn</a>
+                                        <a href="#" class="social-link">LinkedIn</a>
                                         <a href="#" class="social-link">Twitter</a>
                                     </div>
                                 </div>
