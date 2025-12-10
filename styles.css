@@ -1113,10 +1113,51 @@ body {
 }
 
 /* ==================== RESPONSIVE DESIGN ==================== */
+@media (max-width: 1200px) and (min-width: 750px) {
+    .monitor-bezel {
+        padding: 20px;
+        aspect-ratio: 9 / 16;
+        min-height: auto;
+    }
+
+    .page {
+        padding: 50px 25px;
+    }
+
+    .page-title {
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 22px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
 @media (max-width: 768px) {
     .monitor-bezel {
         padding: 15px;
-        min-height: 500px;
+        aspect-ratio: 9 / 16;
+        min-height: auto;
     }
 
     .nav-container {
